@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import pickle
 
-# Load the trained model
 with open("aqi.pkl", "rb") as file:
     model = pickle.load(file)
 
